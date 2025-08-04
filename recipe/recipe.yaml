@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: cvss
-  version: 3.4
+  version: "3.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/cvss-${{ version }}.tar.gz
-  sha256: 632353244ba3c58b53355466677edc968b9d7143c317b66271f9fd7939951ee8
+  sha256: f21d18224efcd3c01b44ff1b37dec2e3208d29a6d0ce6c87a599c73c21ee1a99
 
 build:
   number: 0
